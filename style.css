@@ -10,9 +10,13 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Poppins', sans-serif;
+	
     font-weight: 600;
     line-height: 60px;
+}
+h1{
+    font-weight: 700;
+    font-size: 52px;
 }
 /* Global Defaults Set */
 .button {
@@ -55,7 +59,7 @@ p{
     color: #9d77ba;
 }
 .First-banner h1{
-    font-size: 52px;
+    
     margin-bottom: 25px;
     line-height: 67px;
     font-weight: 700;
@@ -74,10 +78,9 @@ p{
 }
 .Mission-section h1{
     text-align: center;
-    font-size: 52px;
     margin-bottom: 30px;
     line-height: 60px;
-    font-weight: 700;
+    
 }
 .Mission-section .Boxes-area{
     display: flex;
@@ -85,8 +88,8 @@ p{
 }
 .one-third-box{
     width:33%;
-    border-radius: 10px;
-    margin-right: 10px;
+    border-radius: 15px;
+    margin-right: 20px;
     padding: 30px 10px;
     box-shadow: 0px 3px 10px lightgrey;
 }
@@ -141,8 +144,43 @@ p{
     font-size: 42px;
     margin-top: 90px;
 }
+/* Myself Section */
+.Myself{
+    padding: 0px 0px 80px;
+    width: 100%;
+    display: flex;
+}
+.Myself h1{
+    margin-bottom: 30px;
+    line-height: 60px;
+}
+.Myself img{
+    width: 80%;
+}
+.Myself h3{
+    margin: -10px 0px;
+    font-size: 24px;
+}
+.Myself p{
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+.Myself .hobby{
+    border-left: 5px solid #b87282;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
 
-
+.Myself .education{
+    border-left: 5px solid #9d77ba;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.Myself .skills{
+    border-left: 5px solid #9d77ba;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
 /* Footer Section Codes */
 footer{
     background: black;
