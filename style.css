@@ -15,72 +15,80 @@ h1,h2,h3,h4,h5,h6{
     line-height: 60px;
 }
 /* Global Defaults Set */
-.button{
-    background-color: #9d77ba;
-    padding: 10px 40px;
+.button {
+    padding: 12px 40px;
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #9d77ba, #b87282);
+}
+.button:hover{
+    background-image: linear-gradient(45deg, #b87282, #9d77ba);
+    transition: 3ms;
+    transform: scale(1.1);
 }
 
 a, a:hover{
 	text-decoration: none;
 }
-.half-width{
-    width:50%;
-    padding-left: 60px;
-}
 
-h1{
-    font-size: 52px;
-    margin-bottom: 30px;
-    margin-top: 80px;
-    line-height: 60px;
-    font-weight: 700;
-}
 p{
     padding-bottom: 30px;
     color: #3E3E3E;
 }
+.left-half{
+    width:50%;
+    padding-left: 60px;
+}
+.right-half{
+    width: 50%;
+}
 /* First Banner Section Codes */
 .First-banner{
     width: 100%;
-
-	/* background: url("")  center top no-repeat; */
-	/* background-size: cover; */
     display: flex;
     padding: 80px 0px;
 }
-
-img{
+.First-banner img{
     width: 80%;
 }
 .purple-text{
     color: #9d77ba;
 }
-
+.First-banner h1{
+    font-size: 52px;
+    margin-bottom: 25px;
+    line-height: 67px;
+    font-weight: 700;
+    border-left: 5px solid #b87282;
+    padding-left: 10px;
+    margin-top: 100px;
+    font-family: 'Yeseva One', cursive;
+}
 
 
 
 /* Mission Section Codes  */
 .Mission-section{
-    margin: 0px 40px;
-
+    width:100%;
+    padding: 0px 0px 80px;
 }
 .Mission-section h1{
     text-align: center;
-
+    font-size: 52px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    font-weight: 700;
 }
 .Mission-section .Boxes-area{
     display: flex;
-    width: 100%;
-    margin: 30px 30px;
+    margin: 30px 60px;
 }
 .one-third-box{
     width:33%;
     border-radius: 10px;
     margin-right: 10px;
     padding: 30px 10px;
-
+    box-shadow: 0px 3px 10px lightgrey;
 }
 .Mission-section .Boxes-area img{
     width:120px;
@@ -95,10 +103,59 @@ img{
 #Goals-box{
     background: #fff4d6;
 }
+/* Develop Section Codes */
 
 .Develop-section{
+    padding: 80px 0px;
+    display: flex;
+    width: 100%;
 
 }
-.Community-Section{
+.Develop-section img {
+    width: 80%;
+    padding-left: 10px;
+}
 
+.Develop-section h2{
+    font-size: 42px;
+    margin-top: 30px;
+}
+.Develop-section p{
+    padding-right: 60px;
+}
+
+
+/* Community Section Codes */
+.Community-Section{
+    padding: 0px 0px 80px;
+    display: flex;
+    width: 100%;
+}
+.Community-Section img {
+    width: 80%;
+    padding-left: 30px;
+}
+
+
+.Community-Section h2{
+    font-size: 42px;
+    margin-top: 90px;
+}
+
+
+/* Footer Section Codes */
+footer{
+    background: black;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    font-family: 'Lobster Two', cursive;
+}
+footer p{
+    text-align: center;
+    color:thistle;
 }
